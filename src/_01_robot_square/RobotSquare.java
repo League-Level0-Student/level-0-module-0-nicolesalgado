@@ -20,17 +20,24 @@ sparkle.penDown();
 sparkle.setSpeed(50);
 
         // 5. Do everything below here 4 times
+
+int numsides = 0;  
+while (numsides < 4) {
+
 sparkle.move(200);
 sparkle.turn(-90);
-sparkle.move(200);
-sparkle.turn(-90);
-sparkle.move(200);
-sparkle.turn(-90);
-        //         2. Move your robot 200 pixels
-sparkle.move(200);
+numsides = 1 + numsides;
+
+}
+
+
+
+
+
+
+//         2. Move your robot 200 pixels
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
-sparkle.turn(-90);
 
     }
 }

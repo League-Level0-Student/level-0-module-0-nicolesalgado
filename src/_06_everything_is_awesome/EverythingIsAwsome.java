@@ -6,7 +6,7 @@ public class EverythingIsAwsome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	String animal =	JOptionPane.showInputDialog("what stuff animal do you like?");
+		String animal =	JOptionPane.showInputDialog("what stuff animal do you like?");
 		JOptionPane.showMessageDialog(null, animal + " is awsome");
 		
 	}
